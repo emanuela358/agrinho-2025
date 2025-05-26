@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+p {
+    text-align: justify;
+    margin: 20px auto;
+    max-width: 1000px;
+    /* margem lateral */
+}
+
+.imagem-introducao,
+.infografico {
+    display: block;
+    margin: 20px auto;
+    max-width: 40%;
+    height: auto;
+    border-radius: 20px 20px 20px 20px;
+}
+#referencias {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+#referencias h3,
+#referencias p {
+    padding-left: 0; /* remove qualquer recuo lateral */
+}
+
+footer {
+    width: 100%;
+    background-color: #373a37;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 12px;
+}
+
+footer p {
+    margin: 0;             /* remove margem automática que pode estar deslocando */
+    display: inline-block; /* garante que o texto se comporte como um bloco centralizável */
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .imagem-introducao,
+    .infografico {
+        max-width: 90%;
+    }
+
+    p {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+}
+
+/* Tablets (601px até 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+
+    .imagem-introducao,
+    .infografico {
+        max-width: 60%;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
