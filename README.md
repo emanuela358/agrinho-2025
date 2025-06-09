@@ -6,4 +6,4 @@ Recuros utilizados: HTML e CSS.
 
 Link vercel: https://agrinho-2025-five-sage.vercel.app/
 
-link GitHub: https://emanuela358.github.io/agrinho-2025/
+Link GitHub: https://emanuela358.github.io/agrinho-2025/
